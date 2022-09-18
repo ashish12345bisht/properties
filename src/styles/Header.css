@@ -1,0 +1,141 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    font-family: poppins;
+    background-color: #fafafe;
+    margin: 0;
+    width: 100%;
+}
+
+.header__left {
+    width: 60vw;
+    flex: 0.8;
+    display: flex;
+    /* max-width: 600px; */
+    align-items: center;
+    justify-content: left;
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left>ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+    align-items: center;
+}
+
+.header__left>ul>li {
+    /* padding: 0 10%; */
+}
+
+.active__header {
+    background-color: #e9e7f8;
+    color: #7062f8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header__dropdown {
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    font-family: poppins;
+    font-size: 1.25rem;
+}
+
+.header__right {
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+}
+
+.header__right>button {
+    font-size: 1rem;
+    font-family: poppins;
+    height: 40px;
+    margin: 1%;
+    width: 100px;
+    font-weight: 900;
+}
+
+.login__button {
+    background-color: transparent;
+    border: 2px solid #edebf2;
+    border-radius: 10px;
+    color: #7164f0;
+}
+
+.signup__button {
+    background-color: #7164f0;
+    border: 2px solid #edebf2;
+    border-radius: 10px;
+    color: #fafafe;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        padding: 0;
+    }
+
+    .header__left {
+        font-size: 0.5rem;
+    }
+
+    .header__dropdown {
+        font-weight: 900;
+        font-size: 0.5rem;
+    }
+
+    .header__left>ul>li {
+        padding: 2%;
+    }
+
+    .header__right>button {
+        font-size: 0.5rem;
+        height: 25px;
+        margin: 1%;
+        width: 50px;
+        font-weight: 900;
+    }
+}
+
+@media screen and ((min-width:601px) and (max-width:1000px)) {
+    .header {
+        padding: 0;
+    }
+
+    .header__left {
+        font-size: 1.25rem;
+        flex: 0.7;
+    }
+
+    .header__right {
+        flex: 0.3;
+    }
+
+    .header__dropdown {
+        font-weight: 900;
+        font-size: 1.25rem;
+    }
+
+    .header__left>ul>li {
+        padding: 2%;
+    }
+
+    .header__right>button {
+        font-size: 1.25rem;
+        height: 40px;
+        margin: 1%;
+        width: 80px;
+        font-weight: 900;
+    }
+}

@@ -1,0 +1,84 @@
+.property__card {
+    background-color: #fff;
+    width: 30%;
+    min-width: 400px;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1%;
+    font-family: poppins;
+}
+
+.property__card>img {
+    width: 100%;
+}
+
+.property__card__bottom {
+    padding: 10px;
+}
+
+.pricebar {
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.pricebar svg {
+    font-size: 1.25rem;
+    color: #7164f0;
+}
+
+.pricebar h2 {
+    color: #7164f0;
+    margin: 0;
+    padding: 0;
+}
+
+.pricebar h2>span {
+    color: #333;
+    font-size: 1rem;
+}
+
+.heart__div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid #a29eb1;
+    padding: 5px;
+}
+
+.details h2 {
+    margin: 0;
+    padding: 0%;
+}
+
+.details p {
+    padding: 0;
+    font-weight: 900;
+    color: #a29eb1;
+}
+
+.propertycard__footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.propertycard__footer>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    font-family: 900;
+    color: #a29eb1;
+    font-weight: 900;
+}
+
+.propertycard__footer>div>svg {
+    font-size: 1.25rem;
+    color: #7164f0
+}

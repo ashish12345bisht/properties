@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <div className="App">
-    <BrowserRouter>
+    <BrowserRouter basename="/properties">
       <Header/>
       <Routes>
         <Route path="/" exact element={<Home data={data1} setData={handleClick}/>}/>

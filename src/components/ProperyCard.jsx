@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import '../styles/PropertyCard.css'
 import {RiHeartLine,RiHeartFill} from 'react-icons/ri'
 import {BiArea,BiBed} from 'react-icons/bi';

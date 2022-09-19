@@ -82,3 +82,10 @@
     font-size: 1.25rem;
     color: #7164f0
 }
+
+@media screen and ((min-width:600px) and (max-width:1000px)) {
+    .property__card {
+        width: 45%;
+        min-width: auto;
+    }
+}

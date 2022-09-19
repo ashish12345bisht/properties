@@ -68,3 +68,41 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width:600px) {
+    .searchbar__div {
+        flex-direction: column;
+    }
+
+    .searchbar__div>h1 {
+        font-size: 1.5rem;
+    }
+
+    .drop__searchdiv {
+        margin: 0.5rem 0;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .drop__searchdiv p {
+        font-size: 0.5rem;
+    }
+
+    .dropdown__search__button {
+        display: none;
+    }
+}
+
+@media screen and ((min-width:600px) and (max-width:1000px)) {
+    .searchbar__div {
+        flex-direction: column;
+    }
+
+    .drop__searchdiv {
+        margin: 0.5rem 0;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .dropdown__search__button {
+        display: none;
+    }
+}
